@@ -1,0 +1,90 @@
+@media (max-width: 72em) {
+  .header {
+    padding: 2.4rem 4.4rem;
+  }
+  .section-hero {
+    padding: 6.4rem 4.4rem;
+  }
+  .section-cta {
+    padding: 6.4rem 4.4rem 14.4rem 4.4rem;
+  }
+  .footer-container {
+    padding: 2.4rem 4.4rem;
+  }
+  .grid {
+    column-gap: 2.4rem;
+    row-gap: 3.2rem;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .course-card {
+    margin-top: 6.4rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .card-heading {
+    font-size: 2rem;
+  }
+
+  .hero-img {
+    content: url(../assets/image-hero-tablet.webp);
+  }
+}
+
+@media (max-width: 47em) {
+  .header {
+    padding: 1.6rem 2rem;
+  }
+  .section-hero {
+    padding: 6.4rem 2rem;
+  }
+  .section-cta {
+    padding: 6.4rem 2rem 8rem 2rem;
+  }
+  .footer-container {
+    padding: 2rem 2.4rem;
+  }
+  .grid {
+    column-gap: 2.4rem;
+    row-gap: 3.2rem;
+  }
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--3--cols {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .course-card {
+    margin-top: 6.4rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .card-heading {
+    font-size: 2rem;
+  }
+
+  .hero-img {
+    width: 100%;
+    content: url(../assets/image-hero-mobile@2x.webp);
+  }
+}

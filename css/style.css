@@ -1,0 +1,129 @@
+/* ************ */
+/*  NAVIGATION  */
+/* ************ */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 8rem;
+}
+
+.btn--header:link,
+.btn--header:visited {
+  background-color: #13183f;
+  color: #fff;
+}
+.btn--header:hover,
+.btn--header:active {
+  background-color: #666ca3;
+}
+
+/* ************ */
+/*  SECTION HERO  */
+/* ************ */
+
+.section-hero {
+  padding: 6.4rem 8rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #83869a;
+  margin-bottom: 4rem;
+}
+.btn--hero:link,
+.btn--hero:visited {
+  color: #fff;
+  background-image: linear-gradient(#ff6f48, #f02aa6 100%);
+}
+
+.btn--hero:hover,
+.btn--hero:active {
+  opacity: 50%;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/* ************ */
+/*  SECTION CTA  */
+/* ************ */
+
+.section-cta {
+  padding: 6.4rem 8rem 14.4rem 8rem;
+}
+
+.course-card {
+  background-color: #fff;
+  padding: 6.4rem 3.2rem 4rem 3.2rem;
+  width: 100%;
+  border-radius: 1.6rem;
+  position: relative;
+}
+
+.card--popular {
+  align-self: stretch;
+  background-image: linear-gradient(#ff6f48, #f02aa6 100%);
+}
+
+.card-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%, -50%);
+}
+
+.card-heading {
+  color: #13183f;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+.card-text {
+  color: #83869a;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.btn--card:link,
+.btn--card:visited {
+  background: none;
+  color: #f74780;
+  padding: 0 !important;
+}
+
+.btn--card:hover,
+.btn--card:active {
+  color: #ffa7c3 !important;
+}
+/* ************ */
+/*  FOOTER  */
+/* ************ */
+
+.footer {
+  background-color: #13183f;
+}
+
+.footer-container {
+  padding: 2.4rem 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn--footer {
+  color: #fff;
+  background-image: linear-gradient(#4851ff, #f02aa6 100%);
+}
+
+.btn--footer:hover,
+.btn--footer:active {
+  opacity: 50%;
+}
